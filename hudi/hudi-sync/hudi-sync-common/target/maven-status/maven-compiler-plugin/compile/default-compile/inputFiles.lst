@@ -1,0 +1,14 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/util/SparkDataSourceTableUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/HoodieSyncConfig.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/model/PartitionValueExtractor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/HoodieSyncTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/HoodieSyncException.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/HoodieSyncClient.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/util/ManifestFileWriter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/model/FieldSchema.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/model/Partition.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/model/PartitionEvent.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/util/TableUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/util/Parquet2SparkSchemaUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/util/SyncUtilHelpers.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-sync-common/src/main/java/org/apache/hudi/sync/common/HoodieMetaSyncOperations.java

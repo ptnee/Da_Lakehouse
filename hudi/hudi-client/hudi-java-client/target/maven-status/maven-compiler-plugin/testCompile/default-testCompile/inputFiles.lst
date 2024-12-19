@@ -1,0 +1,10 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/table/action/commit/TestSchemaEvolutionClient.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/client/TestHoodieJavaWriteClientInsert.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/client/functional/TestHoodieJavaClientOnCopyOnWriteStorage.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/client/common/TestHoodieJavaEngineContext.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/client/functional/TestHoodieJavaClientOnMergeOnReadStorage.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/testutils/HoodieJavaClientTestHarness.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/execution/bulkinsert/TestJavaBulkInsertInternalPartitioner.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/testutils/TestHoodieMetadataBase.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/table/action/commit/TestJavaCopyOnWriteActionExecutor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-java-client/src/test/java/org/apache/hudi/client/TestJavaHoodieBackedMetadata.java

@@ -1,0 +1,13 @@
+org/apache/hudi/internal/BaseWriterCommitMessage.class
+org/apache/hudi/DataSourceUtils.class
+org/apache/hudi/commit/DatasetBulkInsertCommitActionExecutor.class
+org/apache/hudi/internal/DataSourceInternalWriterHelper.class
+org/apache/hudi/commit/DatasetBulkInsertOverwriteTableCommitActionExecutor.class
+org/apache/hudi/HoodieSparkRecordMerger.class
+org/apache/hudi/internal/BaseDefaultSource.class
+org/apache/hudi/async/SparkStreamingAsyncCompactService.class
+org/apache/hudi/sql/InsertMode.class
+org/apache/hudi/DataSourceUtils$1.class
+org/apache/hudi/async/SparkStreamingAsyncClusteringService.class
+org/apache/hudi/commit/DatasetBulkInsertOverwriteCommitActionExecutor.class
+org/apache/hudi/commit/BaseDatasetBulkInsertCommitActionExecutor.class

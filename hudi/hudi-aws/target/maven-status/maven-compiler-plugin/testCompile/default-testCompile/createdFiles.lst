@@ -1,0 +1,3 @@
+org/apache/hudi/aws/TestHoodieAWSCredentialsProviderFactory.class
+org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.class
+org/apache/hudi/aws/transaction/integ/ITTestDynamoDBBasedLockProvider.class

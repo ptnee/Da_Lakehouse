@@ -1,0 +1,12 @@
+#Mon Jul 22 09:56:58 ICT 2024
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/test/java/org/apache/hudi/internal/HoodieBulkInsertInternalWriterTestBase.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseDefaultSource.java=1720262117000
+module-resource*?\:file\:/Users/phamtham/Documents/hudi_no_master/hudi/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncClusteringService.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseWriterCommitMessage.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/sql/InsertMode.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/DataSourceInternalWriterHelper.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncCompactService.java=1720262117000
+configuration*?=25C206EE9A3CDB45E1733C2CBD1266F14D1519BC
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/DataSourceUtils.java=1720262117000
+module-resource*?\:/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark-common/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC

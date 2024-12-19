@@ -1,0 +1,166 @@
+version: "3"
+
+networks:
+  mynetwork:
+    external: 
+      name: mynetwork
+
+# networks:
+#   default:
+#      name: mynetwork
+
+services:
+
+  zookeeper_sn:
+    image: confluentinc/cp-zookeeper:7.2.1
+    hostname: zookeeper_sn
+    container_name: zookeeper_sn
+    ports:
+      - "2180:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - mynetwork
+
+  kafka:
+    image: confluentinc/cp-server:7.2.1
+    hostname: kafka
+    container_name: kafka
+    depends_on:
+      - zookeeper_sn
+    ports:
+      - "9091:9092"
+      - "9101:9101"
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper_sn:2181'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_METRIC_REPORTERS: io.confluent.metrics.reporter.ConfluentMetricsReporter
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_CONFLUENT_LICENSE_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_CONFLUENT_BALANCER_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_JMX_PORT: 9101
+      KAFKA_JMX_HOSTNAME: localhost
+      CONFLUENT_METRICS_REPORTER_BOOTSTRAP_SERVERS: kafka:29092
+      CONFLUENT_METRICS_REPORTER_TOPIC_REPLICAS: 1
+      CONFLUENT_METRICS_ENABLE: 'true'
+      CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
+    networks:
+      - mynetwork
+
+  control-center:
+    image: confluentinc/cp-enterprise-control-center:7.2.1
+    hostname: control-center
+    container_name: control-center
+    depends_on:
+      - kafka
+    ports:
+      - "9021:9021"
+    environment:
+      CONTROL_CENTER_BOOTSTRAP_SERVERS: 'kafka:29092'
+      CONTROL_CENTER_REPLICATION_FACTOR: 1
+      CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS: 1
+      CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS: 1
+      CONFLUENT_METRICS_TOPIC_REPLICATION: 1
+      PORT: 9021
+    networks:
+      - mynetwork
+
+  scala-stream-collector:
+    image: snowplow/scala-stream-collector-kafka:2.9.2
+    command: [ "--config", "/snowplow/config/config.hocon" ]
+    depends_on:
+      - kafka
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./scala-stream-collector-config:/snowplow/config
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  stream-enrich:
+    image: snowplow/stream-enrich-kafka:3.8.0
+    command: [
+      "--config", "/snowplow/config/config.hocon",
+      "--resolver", "file:/snowplow/config/resolver.json"
+    ]
+    depends_on:
+      - scala-stream-collector
+    volumes:
+      - ./stream-enrich-config:/snowplow/config
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  iglu-postgres:
+    container_name: iglu-postgres
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: sp_user
+      POSTGRES_PASSWORD: sp_password
+      POSTGRES_DB: igludb
+    volumes:
+       - pgdata:/var/lib/postgresql/data
+    networks:
+      - mynetwork
+
+  setup-iglu-server:
+    image: snowplow/iglu-server:0.10.1
+    command: ["setup", "--config", "/snowplow/config/config.hocon"]
+    depends_on:
+      - iglu-postgres
+    volumes:
+      - ./iglu-server-config/config.hocon:/snowplow/config/config.hocon
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  iglu-server:
+    container_name: iglu-server
+    image: snowplow/iglu-server:0.10.1
+    command: [ "--config", "/snowplow/config/config.hocon" ]
+    depends_on:
+      - setup-iglu-server
+    ports:
+      - "8083:8081"
+    volumes:
+      - ./iglu-server-config/config.hocon:/snowplow/config/config.hocon
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  web:
+    image: nginx
+    volumes:
+      - ./web:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    networks:
+      - mynetwork
+
+  events-processor:
+    build:
+      context: ./events-processor
+    networks:
+      - mynetwork
+
+
+  # kafka-topics     --bootstrap-server localhost:9092     --list
+
+  # kafka-console-consumer     --bootstrap-server localhost:9092     --topic snowplow_raw_good     --from-beginning
+
+volumes:
+  pgdata:

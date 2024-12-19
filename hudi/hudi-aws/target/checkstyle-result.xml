@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/GlueCatalogSyncClientConfig.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/HoodieAWSConfig.java">
+<error line="40" severity="info" message="Extra separation in import group before &apos;org.apache.hudi.config.GlueCatalogSyncClientConfig.GLUE_SKIP_TABLE_ARCHIVE&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="92" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/transaction/lock/DynamoDBBasedLockProvider.java">
+<error line="35" severity="info" message="Import org.apache.hudi.aws.utils.DynamoTableUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="info" message="&apos;software.amazon.awssdk.regions.Region&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" severity="info" message="Import org.apache.hadoop.conf.Configuration appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/cloudwatch/CloudWatchReporter.java">
+<error line="30" severity="info" message="Import com.codahale.metrics.Clock appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="75" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/utils/S3Utils.java">
+<error line="22" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/utils/DynamoTableUtils.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient.java">
+<error line="58" severity="info" message="Import org.apache.parquet.schema.MessageType appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/HoodieGlueSyncException.java">
+<error line="24" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieConfigAWSCredentialsProvider.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.util.StringUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="Import software.amazon.awssdk.auth.credentials.AwsBasicCredentials appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="info" message="Import org.slf4j.Logger appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/transaction/integ/ITTestDynamoDBBasedLockProvider.java">
+<error line="28" severity="info" message="Import org.apache.hudi.aws.transaction.lock.DynamoDBBasedLockProvider appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="Import java.util.Properties appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.java">
+<error line="26" severity="info" message="Import com.codahale.metrics.Clock appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="58" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/TestHoodieAWSCredentialsProviderFactory.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.config.HoodieConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+</checkstyle>

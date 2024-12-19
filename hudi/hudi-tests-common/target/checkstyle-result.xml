@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-tests-common/src/main/resources/log4j2-surefire-quiet.properties">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-tests-common/src/main/resources/log4j2-surefire.properties">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-tests-common/src/main/resources/log4j2.component.properties">
+</file>
+</checkstyle>

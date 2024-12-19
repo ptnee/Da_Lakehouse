@@ -1,0 +1,12 @@
+org/apache/hudi/execution/bulkinsert/TestJavaBulkInsertInternalPartitioner.class
+org/apache/hudi/client/TestJavaHoodieBackedMetadata.class
+org/apache/hudi/client/TestHoodieJavaWriteClientInsert.class
+org/apache/hudi/testutils/TestHoodieMetadataBase.class
+org/apache/hudi/client/common/TestHoodieJavaEngineContext.class
+org/apache/hudi/testutils/HoodieJavaClientTestHarness.class
+org/apache/hudi/testutils/HoodieJavaClientTestHarness$TestJavaTaskContextSupplier.class
+org/apache/hudi/table/action/commit/TestSchemaEvolutionClient.class
+org/apache/hudi/client/functional/TestHoodieJavaClientOnCopyOnWriteStorage$WriteClientBrokenClustering.class
+org/apache/hudi/table/action/commit/TestJavaCopyOnWriteActionExecutor.class
+org/apache/hudi/client/functional/TestHoodieJavaClientOnMergeOnReadStorage.class
+org/apache/hudi/client/functional/TestHoodieJavaClientOnCopyOnWriteStorage.class

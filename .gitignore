@@ -1,0 +1,124 @@
+# Directories #
+
+
+/hudi/build/
+/hudi/target/
+/hudi/metastore_db/
+.mvn/
+
+# OS Files #
+.DS_Store
+ 
+*.class
+.java-version
+ 
+# Package Files #
+*.jar
+# But not these files...
+!/hoodie-cli/lib/dnl/utils/textutils/0.3.3/textutils-0.3.3.jar
+*.war
+*.ear
+*.db
+*.patch 
+ 
+######################
+# OSX
+######################
+ 
+.DS_Store
+ 
+# Thumbnails
+._*
+ 
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*.pyc
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/hudi/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+#######################################
+# IntelliJ specific files/directories #
+#######################################
+.out
+.idea/*
+!.idea/vcs.xml
+*.ipr
+*.iws
+*.iml
+*.log
+
+#######################################
+# Maven
+#######################################
+hudi/dependency-reduced-pom.xml
+
+
+#######################################
+# Docker
+#######################################
+/hudi/hudi-integ-test/compose_env/
+/hudi/node_modules/
+/hudi/package-lock.json
+
+
+
+# dependencies
+/eCommerce_Shop/node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/eCommerce_Shop/coverage/
+
+# next.js
+.next/
+/eCommerce_Shop/out/
+
+# production
+/eCommerce_Shop/build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+/eCommerce_Shop/npm-debug.log*
+/eCommerce_Shop/yarn-debug.log*
+/eCommerce_Shop/yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

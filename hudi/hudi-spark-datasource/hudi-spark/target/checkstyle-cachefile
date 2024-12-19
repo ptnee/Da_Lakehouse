@@ -1,0 +1,17 @@
+#Mon Jul 22 09:58:37 ICT 2024
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/HoodieDataSourceHelpers.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/SchemaProvider.java=1720262117000
+module-resource*?\:file\:/Users/phamtham/Documents/hudi_no_master/hudi/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkOrcBootstrapDataProvider.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestDataSkippingWithMORColstats.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/resources/table-config.properties=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestWriteClient.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/HDFSParquetImporterUtils.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkParquetBootstrapDataProvider.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/HoodieJavaApp.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/factory/TestHoodieSparkKeyGeneratorFactory.java=1720262117000
+module-resource*?\:/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/HoodieJavaStreamingApp.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestBootstrapRead.java=1720262117000
+configuration*?=1A244C4DDEF9BC7E473AC8FBA654F4751D72FDC1
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/ArchiveExecutorUtils.java=1720262117000

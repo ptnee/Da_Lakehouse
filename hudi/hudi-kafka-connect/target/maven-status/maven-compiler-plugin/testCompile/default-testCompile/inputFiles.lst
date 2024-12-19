@@ -1,0 +1,9 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestAbstractConnectWriter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestHdfsConfiguration.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockConnectTransactionServices.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionParticipant.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionCoordinator.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/TestHudiWriterProvider.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaConnect.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestBufferedConnectWriter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaControlAgent.java

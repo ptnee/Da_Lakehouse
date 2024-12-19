@@ -1,0 +1,9 @@
+#Mon Jul 22 09:55:12 ICT 2024
+module-resource*?\:file\:/Users/phamtham/Documents/hudi_no_master/hudi/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java=1720262117000
+module-resource*?\:/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/utils/DynamoTableUtils.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/GlueCatalogSyncClientConfig.java=1720262117000
+configuration*?=5B03A9819F01C65F15C3B900DDD23EFB6172CE50

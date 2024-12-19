@@ -1,0 +1,2 @@
+org/apache/hudi/internal/TestHoodieBulkInsertDataInternalWriter.class
+org/apache/hudi/internal/TestHoodieDataSourceInternalWriter.class

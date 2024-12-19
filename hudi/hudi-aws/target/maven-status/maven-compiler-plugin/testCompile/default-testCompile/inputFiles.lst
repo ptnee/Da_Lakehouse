@@ -1,0 +1,3 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/TestHoodieAWSCredentialsProviderFactory.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/test/java/org/apache/hudi/aws/transaction/integ/ITTestDynamoDBBasedLockProvider.java

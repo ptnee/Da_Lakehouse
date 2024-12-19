@@ -1,0 +1,5 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-gcp/src/main/java/org/apache/hudi/gcp/bigquery/BigQuerySyncConfig.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-gcp/src/main/java/org/apache/hudi/gcp/bigquery/BigQuerySchemaResolver.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-gcp/src/main/java/org/apache/hudi/gcp/bigquery/HoodieBigQuerySyncClient.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-gcp/src/main/java/org/apache/hudi/gcp/bigquery/BigQuerySyncTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-gcp/src/main/java/org/apache/hudi/gcp/bigquery/HoodieBigQuerySyncException.java

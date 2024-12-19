@@ -1,0 +1,60 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2024-07-22T10:07:49+07:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 34
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/pom.xml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/test/java/org/apache/hudi/adapter/StreamingRuntimeContextAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/test/java/org/apache/hudi/adapter/OutputAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/test/java/org/apache/hudi/adapter/TestTableEnvs.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/test/java/org/apache/hudi/adapter/StateInitializationContextAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/SupportsRowLevelUpdateAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/MailboxExecutorAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/OperatorCoordinatorAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/Utils.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/SortCodeGeneratorAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/MaskingOutputAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/SupportsRowLevelDeleteAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/DataStreamScanProviderAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/DataStreamSinkProviderAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/AbstractStreamOperatorFactoryAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/AbstractStreamOperatorAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/adapter/RateLimiterAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/ParquetSplitReaderUtil.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/RunLengthDecoder.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/ParquetDataColumnReaderFactory.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/Int64TimestampColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/AbstractColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/BaseVectorizedColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/MapColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/RowColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/ArrayColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/FixedLenBytesColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/ParquetColumnarRowSplitReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/EmptyColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/reader/ParquetDataColumnReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/HeapMapColumnVector.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/HeapRowColumnVector.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/ParquetDecimalVector.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-flink-datasource/hudi-flink1.15.x/src/main/java/org/apache/hudi/table/format/cow/vector/HeapArrayVector.java
+ 
+*****************************************************

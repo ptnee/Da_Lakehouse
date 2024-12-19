@@ -1,0 +1,25 @@
+#Mon Jul 22 10:07:55 ICT 2024
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockConnectTransactionServices.java=1720262117000
+module-resource*?\:/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkTask.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/BufferedConnectWriter.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionCoordinator.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlProducer.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/CoordinatorEvent.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectTransactionServices.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaConnect.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectTransactionServices.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlAgent.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionCoordinator.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionParticipant.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/AbstractConnectWriter.java=1720262117000
+configuration*?=A698F6ABF1178CB13F9C338FF5E20FDCBA35A67D
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/utils/KafkaConnectUtils.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectWriterProvider.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaControlAgent.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaConnectControlAgent.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionParticipant.java=1720262117000
+module-resource*?\:file\:/Users/phamtham/Documents/hudi_no_master/hudi/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkConnector.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionInfo.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/TestHudiWriterProvider.java=1720262117000

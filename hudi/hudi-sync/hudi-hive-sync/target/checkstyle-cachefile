@@ -1,0 +1,20 @@
+#Mon Jul 22 09:55:07 ICT 2024
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/util/HiveSchemaUtil.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/HiveQueryDDLExecutor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/NonPartitionedExtractor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/DDLExecutor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/JDBCExecutor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/QueryBasedDDLExecutor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/HMSDDLExecutor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveStylePartitionValueExtractor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/transaction/lock/HiveMetastoreBasedLockProvider.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SinglePartPartitionValueExtractor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/HiveSyncGlobalCommit.java=1720262117000
+module-resource*?\:/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SlashEncodedHourPartitionValueExtractor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveSyncTool.java=1720262117000
+configuration*?=04CF390609A3FC2CE5997C9A72DC480F6E2B9EB3
+module-resource*?\:file\:/Users/phamtham/Documents/hudi_no_master/hudi/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SlashEncodedDayPartitionValueExtractor.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HoodieHiveSyncClient.java=1720262117000
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/util/IMetaStoreClientUtil.java=1720262117000

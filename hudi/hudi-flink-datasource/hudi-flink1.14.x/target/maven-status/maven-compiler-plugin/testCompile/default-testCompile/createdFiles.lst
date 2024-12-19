@@ -1,0 +1,4 @@
+org/apache/hudi/adapter/TestTableEnvs.class
+org/apache/hudi/adapter/OutputAdapter.class
+org/apache/hudi/adapter/StreamingRuntimeContextAdapter.class
+org/apache/hudi/adapter/StateInitializationContextAdapter.class

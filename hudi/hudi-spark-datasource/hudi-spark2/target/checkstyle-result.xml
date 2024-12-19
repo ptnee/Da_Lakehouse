@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriterFactory.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/DefaultSource.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieWriterCommitMessage.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieDataSourceInternalWriter.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriter.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/spark/sql/execution/datasources/parquet/Spark24HoodieVectorizedParquetRecordReader.java">
+<error line="24" severity="info" message="Import org.apache.hadoop.mapreduce.InputSplit appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="Import org.apache.hudi.client.utils.SparkInternalSchemaConverter appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="info" message="&apos;org.apache.spark.memory.MemoryMode&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/test/java/org/apache/hudi/internal/TestHoodieDataSourceInternalWriter.java">
+<error line="27" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark2/src/test/java/org/apache/hudi/internal/TestHoodieBulkInsertDataInternalWriter.java">
+<error line="26" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+</checkstyle>

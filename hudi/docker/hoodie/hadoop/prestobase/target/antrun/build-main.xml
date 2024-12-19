@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/Users/phamtham/Documents/hudi_no_master/hudi/docker/hoodie/hadoop/prestobase/../../../../packaging/hudi-presto-bundle/target/hudi-presto-bundle-0.14.0.jar" tofile="target/hudi-presto-bundle.jar"/>
+</target>
+</project>

@@ -1,0 +1,8 @@
+org/apache/hudi/testutils/HoodieFlinkClientTestHarness$SimpleTestSinkFunction.class
+org/apache/hudi/index/bloom/TestFlinkHoodieBloomIndex.class
+org/apache/hudi/testutils/HoodieFlinkClientTestHarness.class
+org/apache/hudi/io/storage/row/parquet/TestParquetSchemaConverter.class
+org/apache/hudi/table/action/cluster/strategy/TestFlinkSizeBasedClusteringPlanStrategy.class
+org/apache/hudi/client/TestFlinkWriteClient.class
+org/apache/hudi/testutils/HoodieFlinkWriteableTestTable.class
+org/apache/hudi/client/common/TestHoodieFlinkEngineContext.class

@@ -1,0 +1,5 @@
+org/apache/hudi/gcp/bigquery/TestBigQuerySyncConfig.class
+org/apache/hudi/gcp/bigquery/TestBigQuerySyncToolArgs.class
+org/apache/hudi/gcp/bigquery/TestBigQuerySchemaResolver.class
+org/apache/hudi/gcp/bigquery/TestHoodieBigQuerySyncClient.class
+org/apache/hudi/gcp/bigquery/TestBigQuerySyncTool.class

@@ -1,0 +1,7 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/DatahubResponseLogger.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/config/HoodieDataHubDatasetIdentifier.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/DataHubSyncTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/config/DataHubEmitterSupplier.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/HoodieDataHubSyncException.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/DataHubSyncClient.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-datahub-sync/src/main/java/org/apache/hudi/sync/datahub/config/DataHubSyncConfig.java

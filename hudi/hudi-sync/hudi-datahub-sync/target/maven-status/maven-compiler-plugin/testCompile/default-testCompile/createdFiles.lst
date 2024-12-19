@@ -1,0 +1,7 @@
+org/apache/hudi/sync/datahub/config/TestDataHubSyncConfig.class
+org/apache/hudi/sync/datahub/DummyPartitionValueExtractor.class
+org/apache/hudi/sync/datahub/TestDataHubSyncClient$DataHubSyncClientStub.class
+org/apache/hudi/sync/datahub/TestDataHubSyncClient$DatahubSyncConfigStub.class
+org/apache/hudi/sync/datahub/TestDataHubSyncClient.class
+org/apache/hudi/sync/datahub/config/TestDataHubSyncConfig$DummySupplier.class
+org/apache/hudi/sync/datahub/config/TestDataHubSyncConfig$DummyIdentifier.class

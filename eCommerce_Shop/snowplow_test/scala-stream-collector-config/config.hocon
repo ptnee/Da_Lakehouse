@@ -1,0 +1,80 @@
+collector {
+  interface = "0.0.0.0"
+  port = 8080
+
+  p3p {
+    policyRef = "/w3c/p3p.xml"
+    CP = "NOI DSP COR NID PSA OUR IND COM NAV STA"
+  }
+
+  crossDomain {
+    enabled = false
+    domains = [ "*" ]
+    secure = true
+  }
+
+  cookie {
+    enabled = true
+    expiration = "365 days"
+    name = snowplow
+  }
+
+  doNotTrackCookie {
+    enabled = false
+    name = snowplow_do_not_track
+    value = snowplow_do_not_track_value
+  }
+
+  cookieBounce {
+    enabled = false
+    name = "n3pc"
+    fallbackNetworkUserId = "00000000-0000-4000-A000-000000000000"
+    forwardedProtocolHeader = "X-Forwarded-Proto"
+  }
+
+  redirectMacro {
+    enabled = false
+  }
+
+  rootResponse {
+    enabled = false
+    statusCode = 302
+    headers = {
+        Location = "https://127.0.0.1/",
+        X-Custom = "something"
+    }
+    body = "302, redirecting"
+  }
+
+  streams {
+    good = snowplow_raw_good
+    bad = snowplow_raw_bad
+    useIpAddressAsPartitionKey = false
+
+    sink {
+      enabled = kafka
+      brokers = "kafka:29092"
+      retries = 0
+    }
+
+    buffer {
+      byteLimit = 1000000
+      recordLimit = 0
+      timeLimit = 1000
+    }
+  }
+}
+
+akka {
+  loglevel = DEBUG
+  loggers = ["akka.event.slf4j.Slf4jLogger"]
+
+  http.server {
+    remote-address-header = on
+    raw-request-uri-header = on
+    parsing {
+      max-uri-length = 32768
+      uri-parsing-mode = relaxed
+    }
+  }
+}

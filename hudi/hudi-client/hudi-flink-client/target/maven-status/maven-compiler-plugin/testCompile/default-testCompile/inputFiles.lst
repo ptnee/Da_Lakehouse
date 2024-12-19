@@ -1,0 +1,7 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/table/action/cluster/strategy/TestFlinkSizeBasedClusteringPlanStrategy.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/testutils/HoodieFlinkWriteableTestTable.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/testutils/HoodieFlinkClientTestHarness.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/client/common/TestHoodieFlinkEngineContext.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/io/storage/row/parquet/TestParquetSchemaConverter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/index/bloom/TestFlinkHoodieBloomIndex.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/client/TestFlinkWriteClient.java

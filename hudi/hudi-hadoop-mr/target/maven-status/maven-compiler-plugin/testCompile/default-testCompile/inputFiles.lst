@@ -1,0 +1,16 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestRecordReaderValueIterator.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestGloballyConsistentTimeStampFilteringInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/testutils/InputFormatTestUtil.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieHFileInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieColumnProjectionUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieParquetInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieCopyOnWriteTableInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeRecordReader.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestInputPathHandler.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieMergeOnReadTableInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/utils/TestHiveAvroSerializer.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/hive/TestHoodieCombineHiveInputFormat.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestAnnotation.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieMergeOnReadSnapshotReader.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieROTablePathFilter.java

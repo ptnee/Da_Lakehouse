@@ -1,0 +1,203 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+{
+  "type": "record",
+  "name": "snowplow_json_event",
+  "fields": [
+    {
+      "name": "app_id",
+      "type": "string"
+    },
+    {
+      "name": "platform",
+      "type": "string"
+    },
+    {
+      "name": "etl_tstamp",
+      "type": "string"
+    },
+    {
+      "name": "collector_tstamp",
+      "type": "string"
+    },
+    {
+      "name": "event",
+      "type": "string"
+    },
+    {
+      "name": "event_id",
+      "type": "string"
+    },
+    {
+      "name": "name_tracker",
+      "type": "string"
+    },
+    {
+      "name": "v_tracker",
+      "type": "string"
+    },
+    {
+      "name": "v_collector",
+      "type": "string"
+    },
+    {
+      "name": "v_etl",
+      "type": "string"
+    },
+    {
+      "name": "user_ipaddress",
+      "type": "string"
+    },
+    {
+      "name": "domain_userid",
+      "type": "string"
+    },
+    {
+      "name": "domain_sessionidx",
+      "type": "int"
+    },
+    {
+      "name": "network_userid",
+      "type": "string"
+    },
+    {
+      "name": "page_url",
+      "type": "string"
+    },
+    {
+      "name": "page_title",
+      "type": "string"
+    },
+    {
+      "name": "page_referrer",
+      "type": "string"
+    },
+    {
+      "name": "page_urlscheme",
+      "type": "string"
+    },
+    {
+      "name": "page_urlhost",
+      "type": "string"
+    },
+    {
+      "name": "page_urlport",
+      "type": "int"
+    },
+    {
+      "name": "page_urlpath",
+      "type": "string"
+    },
+    {
+      "name": "refr_urlscheme",
+      "type": "string"
+    },
+    {
+      "name": "refr_urlhost",
+      "type": "string"
+    },
+    {
+      "name": "refr_urlport",
+      "type": "int"
+    },
+    {
+      "name": "refr_urlpath",
+      "type": "string"
+    },
+    {
+      "name": "useragent",
+      "type": "string"
+    },
+    {
+      "name": "br_lang",
+      "type": "string"
+    },
+    {
+      "name": "br_cookies",
+      "type": "boolean"
+    },
+    {
+      "name": "br_colordepth",
+      "type": "string"
+    },
+    {
+      "name": "br_viewwidth",
+      "type": "int"
+    },
+    {
+      "name": "br_viewheight",
+      "type": "int"
+    },
+    {
+      "name": "dvce_screenwidth",
+      "type": "int"
+    },
+    {
+      "name": "dvce_screenheight",
+      "type": "int"
+    },
+    {
+      "name": "doc_charset",
+      "type": "string"
+    },
+    {
+      "name": "doc_width",
+      "type": "int"
+    },
+    {
+      "name": "doc_height",
+      "type": "int"
+    },
+    {
+      "name": "dvce_sent_tstamp",
+      "type": "string"
+    },
+    {
+      "name": "domain_sessionid",
+      "type": "string"
+    },
+    {
+      "name": "derived_tstamp",
+      "type": "string"
+    },
+    {
+      "name": "event_vendor",
+      "type": "string"
+    },
+    {
+      "name": "event_name",
+      "type": "string"
+    },
+    {
+      "name": "event_format",
+      "type": "string"
+    },
+    {
+      "name": "event_version",
+      "type": "string"
+    },
+    {
+      "name": "ts",
+      "type": "string"
+    },
+    {
+      "name": "etl_date",
+      "type": "string"
+    }
+  ]
+}

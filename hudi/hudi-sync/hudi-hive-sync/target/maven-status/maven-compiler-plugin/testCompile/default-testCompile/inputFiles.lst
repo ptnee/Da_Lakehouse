@@ -1,0 +1,14 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestCluster.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestUtil.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestService.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestParquet2SparkSchemaUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/util/TestPartitionFilterGenerator.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/replication/TestHiveSyncGlobalCommitTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/util/TestHiveSchemaUtil.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestHiveSyncToolArgs.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveSyncFunctionalTestHarness.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestPartitionValueExtractor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/functional/HiveSyncFunctionalTestSuite.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestHiveSyncTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestMultiPartKeysValueExtractor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/functional/TestHiveMetastoreBasedLockProvider.java

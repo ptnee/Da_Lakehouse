@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionInfo.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionCoordinator.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionCoordinator.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionParticipant.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/CoordinatorEvent.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionParticipant.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectTransactionServices.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/AbstractConnectWriter.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectWriterProvider.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectWriterProvider.java">
+<error line="21" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/BufferedConnectWriter.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectTransactionServices.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectWriter.java">
+<error line="26" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectConfigs.java">
+<error line="193" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/KafkaConnectFileIdPrefixProvider.java">
+<error line="29" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/utils/KafkaConnectUtils.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkTask.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlProducer.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaConnectControlAgent.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlAgent.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkConnector.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestAbstractConnectWriter.java">
+<error line="56" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestBufferedConnectWriter.java">
+<error line="47" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestHdfsConfiguration.java">
+<error line="22" severity="info" message="&apos;org.junit.jupiter.api.Assertions.assertEquals&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="info" message="Import org.apache.hudi.connect.writers.KafkaConnectConfigs appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="&apos;org.junit.jupiter.api.Test&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionCoordinator.java">
+<error line="50" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionParticipant.java">
+<error line="29" severity="info" message="Import org.apache.hudi.helper.MockKafkaConnect appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="41" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockConnectTransactionServices.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaConnect.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaControlAgent.java">
+</file>
+<file name="/Users/phamtham/Documents/hudi_no_master/hudi/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/TestHudiWriterProvider.java">
+</file>
+</checkstyle>

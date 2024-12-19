@@ -1,0 +1,143 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2024-07-22T10:09:51+07:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 117
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/pom.xml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/README.md
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/prepare_integration_suite.sh
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/resources/unit-test-spark-sql-dag.yaml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/resources/unit-test-cow-dag-spark-datasource.yaml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/resources/unit-test-cow-dag.yaml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/resources/unit-test-mor-dag.yaml
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/resources/hoodie-docker.properties
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/ITTestHoodieSanity.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/reader/TestDFSHoodieDatasetInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/reader/TestDFSAvroDeltaInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/configuration/TestWorkflowBuilder.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/converter/TestUpdateConverter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/converter/TestDeleteConverter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/dag/HiveSyncDagGeneratorMOR.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/dag/HiveSyncDagGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/dag/TestDagUtils.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/dag/ComplexDagGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/TestDFSHoodieTestSuiteWriterAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/utils/TestUtils.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/generator/TestGenericRecordPayloadEstimator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/generator/TestGenericRecordPayloadGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/job/TestHoodieTestSuiteJob.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/testsuite/TestFileDeltaInputWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/ITTestHoodieDemo.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/ITTestBase.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/HoodieTestHiveBase.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/test/java/org/apache/hudi/integ/command/ITTestHoodieSyncCommand.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/DeltaInputType.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/DFSDeltaInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/DeltaInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/SparkBasedReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/DFSAvroDeltaInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/reader/DFSHoodieDatasetInputReader.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/configuration/DeltaConfig.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/configuration/DFSDeltaConfig.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieTestSuiteWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/converter/DeleteConverter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/converter/Converter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/converter/UpdateConverter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/WorkflowDagGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/SimpleWorkflowDagGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/BulkInsertNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/RollbackNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/DeleteInputDatasetNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/DeleteNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/PrestoQueryNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/ValidateNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/TrinoQueryNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/DagNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/InsertOverwriteNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/SparkSQLQueryNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/UpsertNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/CleanNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/HiveSyncNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/ClusteringNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/DelayNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/BaseValidateDatasetNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/InsertOverwriteTableNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/ScheduleCompactNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/CompactNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/BaseQueryNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/ValidateAsyncOperations.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/HiveQueryNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/ValidateDatasetNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/nodes/InsertNode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/WorkflowDag.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/scheduler/SaferSchemaDagScheduler.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/scheduler/DagScheduler.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/ExecutionContext.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/WriterContext.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/dag/DagUtils.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieInlineTestSuiteWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/GenericRecordFullPayloadSizeEstimator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/GenericRecordFullPayloadGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/DeleteGeneratorIterator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/DeltaGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/FlexibleSchemaRecordGenerationIterator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/UpdateGeneratorIterator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/GenericRecordPartialPayloadGenerator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/generator/LazyRecordGeneratorIterator.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/schema/TestSuiteFileBasedSchemaProvider.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/schema/SchemaUtils.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieMultiWriterTestSuiteJob.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/SparkAvroDeltaInputWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DeltaWriterAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DeltaWriteStats.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DFSSparkAvroDeltaWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DeltaInputWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DeltaOutputMode.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/AvroFileDeltaInputWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DFSDeltaWriterAdapter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/writer/DeltaWriterFactory.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieContinuousTestSuiteWriter.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/SparkDataSourceContinuousIngestTool.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieTestSuiteJob.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/helpers/DFSTestSuitePathSelector.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/helpers/HiveServiceProvider.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/helpers/ZookeeperServiceProvider.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/java/org/apache/hudi/integ/testsuite/HoodieDeltaStreamerWrapper.java
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkInsertNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkInsertOverwriteTableNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkDeletePartitionNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkInsertOverwriteNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkUpsertNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkDeleteNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/SparkBulkInsertNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlCreateTableNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlInsertNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlUpdateNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/BaseSparkSqlNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlMergeNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlInsertOverwriteNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlDeleteNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/dag/nodes/spark/sql/SparkSqlValidateDatasetNode.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/SparkDataSourceContinuousIngest.scala
+  AL2 /Users/phamtham/Documents/hudi_no_master/hudi/hudi-integ-test/src/main/scala/org/apache/hudi/integ/testsuite/utils/SparkSqlUtils.scala
+ 
+*****************************************************

@@ -1,0 +1,104 @@
+version: "3"
+
+networks:
+  mynetwork:
+    external: 
+      name: mynetwork
+
+# networks:
+#   default:
+#      name: mynetwork
+
+services:
+
+  scala-stream-collector:
+    image: snowplow/scala-stream-collector-kafka:2.9.2
+    command: [ "--config", "/snowplow/config/config.hocon" ]
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./scala-stream-collector-config:/snowplow/config
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  stream-enrich:
+    image: snowplow/stream-enrich-kafka:3.8.0
+    command: [
+      "--config", "/snowplow/config/config.hocon",
+      "--resolver", "file:/snowplow/config/resolver.json"
+    ]
+    depends_on:
+      - scala-stream-collector
+    volumes:
+      - ./stream-enrich-config:/snowplow/config
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  iglu-postgres:
+    container_name: iglu-postgres
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: sp_user
+      POSTGRES_PASSWORD: sp_password
+      POSTGRES_DB: igludb
+    volumes:
+       - pgdata:/var/lib/postgresql/data
+    networks:
+      - mynetwork
+
+  setup-iglu-server:
+    image: snowplow/iglu-server:0.10.1
+    command: ["setup", "--config", "/snowplow/config/config.hocon"]
+    depends_on:
+      - iglu-postgres
+    volumes:
+      - ./iglu-server-config/config.hocon:/snowplow/config/config.hocon
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  iglu-server:
+    container_name: iglu-server
+    image: snowplow/iglu-server:0.10.1
+    command: [ "--config", "/snowplow/config/config.hocon" ]
+    depends_on:
+      - setup-iglu-server
+    ports:
+      - "8083:8081"
+    volumes:
+      - ./iglu-server-config/config.hocon:/snowplow/config/config.hocon
+    environment:
+      - "SP_JAVA_OPTS=-Xms512m -Xmx512m"
+    networks:
+      - mynetwork
+
+  web:
+    image: nginx
+    volumes:
+      - ./web:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    networks:
+      - mynetwork
+
+  events-processor:
+    build:
+      context: ./events-processor
+    networks:
+      - mynetwork
+
+
+  # kafka-topics     --bootstrap-server localhost:9092     --list
+
+  # kafka-console-consumer     --bootstrap-server localhost:9092     --topic snowplow_raw_good     --from-beginning
+
+
+volumes:
+  pgdata:

@@ -1,0 +1,12 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/GlueCatalogSyncClientConfig.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/utils/S3Utils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/HoodieAWSConfig.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/utils/DynamoTableUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieConfigAWSCredentialsProvider.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/transaction/lock/DynamoDBBasedLockProvider.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/cloudwatch/CloudWatchReporter.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/sync/HoodieGlueSyncException.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java

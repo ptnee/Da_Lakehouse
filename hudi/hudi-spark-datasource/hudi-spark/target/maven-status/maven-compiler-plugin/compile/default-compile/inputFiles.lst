@@ -1,0 +1,16 @@
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonVisitor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/HDFSParquetImporterUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/BootstrapExecutorUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonBaseListener.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/QuickstartUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkFullBootstrapDataProviderBase.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/SchemaProvider.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonParser.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkParquetBootstrapDataProvider.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonListener.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonBaseVisitor.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/ArchiveExecutorUtils.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/HoodieDataSourceHelpers.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonLexer.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/payload/AWSDmsAvroPayload.java
+/Users/phamtham/Documents/hudi_no_master/hudi/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkOrcBootstrapDataProvider.java

@@ -1,0 +1,24 @@
+enrich {
+  streams {
+    in {
+      raw = snowplow_raw_good
+    }
+    out {
+      enriched = snowplow_enriched_good
+      bad = snowplow_enriched_bad
+      partitionKey = user_fingerprint
+    }
+    sourceSink {
+      enabled = kafka
+      brokers = "kafka:29092"
+      retries = 0
+    }
+    buffer {
+      byteLimit = 1000000
+      recordLimit = 0
+      timeLimit = 2000
+    }
+    appName = "snowplow"
+  }
+  #adapters{}
+}
